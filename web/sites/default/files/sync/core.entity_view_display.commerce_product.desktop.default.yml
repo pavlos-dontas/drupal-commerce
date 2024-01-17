@@ -1,0 +1,56 @@
+uuid: 72df52d0-1dcc-4158-9446-16c739b73231
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.desktop
+    - field.field.commerce_product.desktop.body
+    - field.field.commerce_product.desktop.field_product_image
+  module:
+    - commerce_product
+    - image
+    - text
+id: commerce_product.desktop.default
+targetEntityType: commerce_product
+bundle: desktop
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_product_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: hidden
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  created: true
+  langcode: true
+  stores: true
+  uid: true

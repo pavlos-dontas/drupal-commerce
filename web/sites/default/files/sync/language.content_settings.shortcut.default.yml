@@ -1,0 +1,11 @@
+uuid: 1310ee92-8f5b-4a7c-a865-a58265df3ceb
+langcode: el
+status: true
+dependencies:
+  config:
+    - shortcut.set.default
+id: shortcut.default
+target_entity_type_id: shortcut
+target_bundle: default
+default_langcode: site_default
+language_alterable: false

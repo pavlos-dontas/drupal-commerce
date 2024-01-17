@@ -1,0 +1,46 @@
+label: Πληρωμές
+display:
+  default:
+    display_title: Προεπιλεγμένο
+    display_options:
+      title: Πληρωμές
+      fields:
+        amount__number:
+          label: Πληρωμή
+          separator: ', '
+        refunded_amount__number:
+          separator: ', '
+        avs_response_code_label:
+          separator: ', '
+        avs_response_code:
+          separator: ', '
+        state:
+          label: Κατάσταση
+          separator: ', '
+        payment_gateway:
+          separator: ', '
+        authorized:
+          separator: ', '
+        completed:
+          label: Ολοκληρώθηκε
+          separator: ', '
+        remote_id:
+          separator: ', '
+        operations:
+          label: Λειτουργίες
+      exposed_form:
+        options:
+          submit_button: Εφαρμογή
+          reset_button_label: Επαναφορά
+          exposed_sorts_label: 'Ταξινόμηση κατά'
+          sort_asc_label: Αύξ
+          sort_desc_label: Φθί
+      arguments:
+        order_id:
+          exception:
+            title: Όλες
+  page_1:
+    display_title: Σελίδα
+    display_options:
+      menu:
+        title: Πληρωμές

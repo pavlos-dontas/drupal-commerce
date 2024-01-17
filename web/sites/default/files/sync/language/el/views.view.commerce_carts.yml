@@ -1,0 +1,53 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Φίλτρο
+          reset_button_label: Επαναφορά
+          exposed_sorts_label: 'Ταξινόμηση κατά'
+          sort_asc_label: Αύξ
+          sort_desc_label: Φθί
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Είδη ανά σελίδα'
+            items_per_page_options_all_label: '- Όλα -'
+            offset_label: Αντιστάθμιση
+          tags:
+            previous: '‹ προηγούμενη'
+            next: 'επόμενη ›'
+            first: '« πρώτη'
+            last: 'τελευταία »'
+      fields:
+        commerce_order_bulk_form:
+          action_title: 'Επιλογές ενημέρωσης'
+        type:
+          label: Τύπος
+          separator: ', '
+        store_id:
+          label: Κατάστημα
+          separator: ', '
+        uid:
+          label: Πελάτης
+          separator: ', '
+        mail:
+          label: Email
+          separator: ', '
+        total_price__number:
+          label: 'Συνολικό κόστος'
+          separator: ', '
+        changed:
+          label: Ενημερώθηκε
+          separator: ', '
+        operations:
+          label: Λειτουργίες
+      filters:
+        type:
+          expose:
+            label: Τύπος
+      empty:
+        area_text_custom:
+          content: 'Δεν υπάρχουν διαθέσιμες παραγγελίες.'
+  page_1:
+    display_title: Σελίδα

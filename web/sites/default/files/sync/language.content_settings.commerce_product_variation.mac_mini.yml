@@ -1,0 +1,11 @@
+uuid: 17d059a3-0f90-4ce7-82aa-5b6aed0b3e79
+langcode: el
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.mac_mini
+id: commerce_product_variation.mac_mini
+target_entity_type_id: commerce_product_variation
+target_bundle: mac_mini
+default_langcode: site_default
+language_alterable: false

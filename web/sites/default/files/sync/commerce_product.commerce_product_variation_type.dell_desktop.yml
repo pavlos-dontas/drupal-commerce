@@ -1,0 +1,10 @@
+uuid: ab402d6b-bf4a-4771-ac6f-135242dc4407
+langcode: en
+status: true
+dependencies: {  }
+id: dell_desktop
+label: 'Dell Desktop'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

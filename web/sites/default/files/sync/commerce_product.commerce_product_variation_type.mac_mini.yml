@@ -1,0 +1,10 @@
+uuid: 592b5dfa-1827-43c6-bbbe-6741506b47e3
+langcode: en
+status: true
+dependencies: {  }
+id: mac_mini
+label: 'Mac mini'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

@@ -1,0 +1,10 @@
+uuid: 098a2189-0426-4181-aa38-25773c94db6a
+langcode: en
+status: true
+dependencies: {  }
+id: hp_laptop
+label: 'HP Laptop'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

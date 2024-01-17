@@ -1,0 +1,10 @@
+uuid: 9138e076-43e9-4903-a874-c5d55cab4ea6
+langcode: en
+status: true
+dependencies: {  }
+id: student_laptop
+label: 'Student Laptop'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

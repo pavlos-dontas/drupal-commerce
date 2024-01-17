@@ -1,0 +1,19 @@
+uuid: b92e905d-75d6-4f23-9ea3-43cf3cb2318b
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_payment_example
+id: paypal
+label: PayPal
+weight: null
+plugin: example_stored_offsite_redirect
+configuration:
+  display_label: 'Example Stored Offsite'
+  mode: test
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  redirect_method: post
+conditions: {  }
+conditionOperator: AND

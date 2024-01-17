@@ -1,0 +1,11 @@
+uuid: 65a73d88-ff38-4667-bff7-cd4ecb388cf0
+langcode: el
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.gaming_pc
+id: commerce_product_variation.gaming_pc
+target_entity_type_id: commerce_product_variation
+target_bundle: gaming_pc
+default_langcode: site_default
+language_alterable: false

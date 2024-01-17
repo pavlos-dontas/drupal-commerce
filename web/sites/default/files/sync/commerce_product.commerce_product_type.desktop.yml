@@ -1,0 +1,16 @@
+uuid: c2ae1a82-a138-4a80-9320-68c0e8169911
+langcode: en
+status: true
+dependencies: {  }
+id: desktop
+label: Desktop
+traits: {  }
+locked: false
+description: ''
+variationType: null
+variationTypes:
+  - dell_desktop
+  - gaming_pc
+  - student_pc
+multipleVariations: true
+injectVariationFields: true

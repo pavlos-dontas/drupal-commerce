@@ -1,0 +1,15 @@
+uuid: 4424def6-f5d4-4da6-8a7c-077cc4ff31e9
+langcode: en
+status: true
+dependencies: {  }
+id: laptop
+label: Laptop
+traits: {  }
+locked: false
+description: ''
+variationType: null
+variationTypes:
+  - hp_laptop
+  - student_laptop
+multipleVariations: true
+injectVariationFields: true

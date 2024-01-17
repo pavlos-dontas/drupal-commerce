@@ -1,0 +1,11 @@
+uuid: 8da7e426-9d49-44af-9312-762b2e291a37
+langcode: el
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.macbook_pro
+id: commerce_product_variation.macbook_pro
+target_entity_type_id: commerce_product_variation
+target_bundle: macbook_pro
+default_langcode: site_default
+language_alterable: false

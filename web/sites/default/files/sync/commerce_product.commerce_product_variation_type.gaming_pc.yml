@@ -1,0 +1,10 @@
+uuid: bd2d3d7a-de52-4d0e-8b70-ad1d34f56a1d
+langcode: en
+status: true
+dependencies: {  }
+id: gaming_pc
+label: 'Gaming PC'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

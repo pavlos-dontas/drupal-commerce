@@ -1,0 +1,11 @@
+uuid: a1ea9dde-3e77-434c-8b03-141940083454
+langcode: el
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.dell_desktop
+id: commerce_product_variation.dell_desktop
+target_entity_type_id: commerce_product_variation
+target_bundle: dell_desktop
+default_langcode: site_default
+language_alterable: false

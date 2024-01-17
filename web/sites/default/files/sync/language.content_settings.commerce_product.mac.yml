@@ -1,0 +1,11 @@
+uuid: f700bf71-6edb-43ec-bd82-73b51c2d637a
+langcode: el
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.mac
+id: commerce_product.mac
+target_entity_type_id: commerce_product
+target_bundle: mac
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,16 @@
+uuid: 2d96b48c-f931-4acd-acf0-e3913392b288
+langcode: en
+status: true
+dependencies: {  }
+id: mac
+label: Mac
+traits: {  }
+locked: false
+description: ''
+variationType: null
+variationTypes:
+  - mac_mini
+  - macbook_air
+  - macbook_pro
+multipleVariations: true
+injectVariationFields: true

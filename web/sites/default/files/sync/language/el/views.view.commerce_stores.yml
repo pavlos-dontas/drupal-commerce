@@ -1,0 +1,44 @@
+display:
+  default:
+    display_options:
+      fields:
+        commerce_store_bulk_form:
+          action_title: 'Επιλογές ενημέρωσης'
+        is_default:
+          label: Προεπιλεγμένο
+          separator: ', '
+        name:
+          label: Όνομα
+          separator: ', '
+        changed:
+          label: Ενημερώθηκε
+          separator: ', '
+        type:
+          label: Τύπος
+          separator: ', '
+        operations:
+          label: Λειτουργίες
+      pager:
+        options:
+          tags:
+            next: 'επόμενη ›'
+            previous: '‹ προηγούμενη'
+            first: '« πρώτη'
+            last: 'τελευταία »'
+          expose:
+            items_per_page_label: 'Είδη ανά σελίδα'
+            items_per_page_options_all_label: '- Όλα -'
+            offset_label: Αντιστάθμιση
+      exposed_form:
+        options:
+          submit_button: Εφαρμογή
+          reset_button_label: Επαναφορά
+          exposed_sorts_label: 'Ταξινόμηση κατά'
+          sort_asc_label: Αύξ
+          sort_desc_label: Φθί
+      filters:
+        type:
+          expose:
+            label: Τύπος
+  page_1:
+    display_title: Σελίδα

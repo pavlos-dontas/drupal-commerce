@@ -1,0 +1,10 @@
+uuid: 88ea2283-23c0-43b9-863a-9171aca270a1
+langcode: en
+status: true
+dependencies: {  }
+id: student_pc
+label: 'Student PC'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

@@ -1,0 +1,10 @@
+uuid: 7b7677fc-a8de-4fe3-b3b9-4ba37a80cd1a
+langcode: en
+status: true
+dependencies: {  }
+id: macbook_air
+label: 'MacBook Air'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

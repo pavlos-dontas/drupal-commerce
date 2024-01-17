@@ -1,0 +1,10 @@
+uuid: c159feaf-9f14-488e-ac2c-ace2aff24420
+langcode: en
+status: true
+dependencies: {  }
+id: macbook_pro
+label: 'MacBook Pro'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

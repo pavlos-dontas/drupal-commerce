@@ -1,0 +1,11 @@
+uuid: cd5471dc-c653-43ab-8652-fadaf9fcef75
+langcode: el
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.student_pc
+id: commerce_product_variation.student_pc
+target_entity_type_id: commerce_product_variation
+target_bundle: student_pc
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,11 @@
+uuid: 7d077934-9523-42d3-bd1d-c93fbdc47218
+langcode: el
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.desktop
+id: commerce_product.desktop
+target_entity_type_id: commerce_product
+target_bundle: desktop
+default_langcode: site_default
+language_alterable: false
