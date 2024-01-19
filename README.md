@@ -1,6 +1,6 @@
 ## Instructions
 
-> [!INFO] For this development environment, DDEV (a Docker wrapper that simplifies things) was used and configured.
+> For this development environment, DDEV (a Docker wrapper that simplifies things) was used and configured.
 
 ### Installing Drupal commerce
 
